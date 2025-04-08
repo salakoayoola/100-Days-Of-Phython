@@ -1,0 +1,27 @@
+print("Ayoola"[::-1])
+print("Ayoola"[0:3])
+print("Ayoola"[0:3][::-1] + "\n")
+
+print(123 + 456)
+print(123456789)
+print(3.14159)
+print("\n")
+print(True)
+print(8-5)
+print (type(8/3))
+print(type(6//3))
+print(2**3)
+print(3*3+(3/3)-3)
+print("\n")
+
+bmi = 84 / (1.8**2)
+print(bmi)
+print(int(bmi))
+print(round(bmi))
+print(round(bmi, 2))
+print("\n")
+
+num = int(bmi)
+print(num)
+
+print(f"Your BMI is {num}, specifically BMI is {bmi:.3f}")
